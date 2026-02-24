@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinDiskBlogger", "WinDiskBlogger\WinDiskBlogger.csproj", "{436ED4FA-AED0-4984-BBDB-EC8CF0F06A86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{436ED4FA-AED0-4984-BBDB-EC8CF0F06A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436ED4FA-AED0-4984-BBDB-EC8CF0F06A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436ED4FA-AED0-4984-BBDB-EC8CF0F06A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436ED4FA-AED0-4984-BBDB-EC8CF0F06A86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F09935B6-6D47-4DD7-A216-32F44D659C98}
+	EndGlobalSection
+EndGlobal
