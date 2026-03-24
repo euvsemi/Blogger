@@ -32,5 +32,12 @@ namespace WinDiskBlogger
             get { return _itemType; }
             set { SetProperty(ref _itemType, value); }
         }
+
+        private bool _isExpanded;
+        public bool IsExpanded
+        {
+            get { return _isExpanded; }
+            set { SetProperty(ref _isExpanded, value); }
+        }
     }
 }

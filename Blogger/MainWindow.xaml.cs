@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using Blogger;
+using System.Windows;
 
 namespace WinDiskBlogger
 {

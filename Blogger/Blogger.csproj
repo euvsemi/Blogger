@@ -31,14 +31,11 @@
 	</ItemGroup>
   <ItemGroup>
     <PackageReference Include="gong-wpf-dragdrop" Version="4.0.0" />
+    <PackageReference Include="MAB.DotIgnore" Version="3.0.2" />
     <PackageReference Include="Ookii.Dialogs.Wpf" Version="5.0.1" />
     <PackageReference Include="Prism.DryIoc" Version="9.0.537" />
     <PackageReference Include="Svg" Version="3.4.7" />
-    <PackageReference Include="System.Drawing.Common" Version="10.0.3" />
     <PackageReference Include="XamlPearls" Version="2.0.3" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bin\Debug\net10.0-windows7.0\Icons\2026-02-24 15-37-23.837\" />
   </ItemGroup>
 
 </Project>

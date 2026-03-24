@@ -58,7 +58,16 @@
                     </MenuItem>
                 </MenuItem>
             </Menu>
-            <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+            <ItemsControl>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel>
+                            
+                        </WrapPanel>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+            <WrapPanel DockPanel.Dock="Top">
                 <Button
                     Margin="5"
                     Padding="10,5"
@@ -69,7 +78,7 @@
                         </i:EventTrigger>
                     </i:Interaction.Triggers>
                 </Button>
-            </StackPanel>
+            </WrapPanel>
             <TreeView
                 x:Name="FileTreeView"
                 dd:DragDrop.DragAdornerTemplate="{StaticResource CustomDragAdorner}"
@@ -77,6 +86,13 @@
                 dd:DragDrop.IsDragSource="True"
                 dd:DragDrop.IsDropTarget="True"
                 ItemsSource="{Binding TreeRoots}">
+                <TreeView.ItemContainerStyle>
+                    <Style TargetType="TreeViewItem">
+                        <Setter Property="IsExpanded" Value="{Binding IsExpanded, Mode=TwoWay}" />
+                        <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />
+                    </Style>
+                </TreeView.ItemContainerStyle>
+
                 <TreeView.ItemTemplate>
                     <HierarchicalDataTemplate ItemsSource="{Binding Items}">
                         <Label>

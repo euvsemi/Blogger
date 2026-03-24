@@ -7,8 +7,6 @@ using System.Windows.Media.Imaging;
 
 namespace WinDiskBlogger
 {
-
-
     public static class IconHelper
     {
         public enum ImageType
